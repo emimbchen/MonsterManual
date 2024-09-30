@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Spell Cards",
+  "name": "Spell Cards - A D&D 5e Reference",
   "icons": [
     {
       "src": "favicon.ico",
