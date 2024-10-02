@@ -1,19 +1,11 @@
 import { Outlet } from "react-router-dom";
-import Footer from "../components/Footer/Footer";
-import Header from "../components/Header/Header";
+import PageLayout from "../components/PageLayout/PageLayout";
 
 function RootLayout() {
   return (
-    <div className="flex flex-col min-h-screen">
-      <a href="#maincontent" className="sr-only focus:not-sr-only">
-        Skip to main content
-      </a>
-      <Header />
-      <main id="maincontent" role="main" className="container py-9 grow">
-        <Outlet />
-      </main>
-      <Footer />
-    </div>
+    <PageLayout>
+      <Outlet />
+    </PageLayout>
   );
 }
 

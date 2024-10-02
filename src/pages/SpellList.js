@@ -17,7 +17,8 @@ function Spells() {
       <div className="flex justify-between items-center mb-5">
         <h1>Spells ({filteredItems.length})</h1>
         <select
-          className="p-2 bg-gray-100 border border-gray-300 text-gray-700 rounded-sm shadow-sm"
+          aria-label="Filter by level"
+          className="p-2 bg-gray-100 border border-gray-300 text-gray-700 rounded-sm shadow-sm cursor-pointer"
           onChange={(e) => setSelectedLevel(e.target.value)}
           value={selectedLevel}
         >

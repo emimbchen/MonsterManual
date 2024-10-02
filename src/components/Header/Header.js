@@ -5,7 +5,7 @@ function Header({ ...props }) {
   return (
     <header role="banner" className="shadow" {...props}>
       <div className="container py-4 flex items-center justify-center">
-        <NavLink to={`/`} end>
+        <NavLink to={`/`} end aria-label="Navigate home">
           <CardIcon className="h-12" alt="Spell Card Logo" />
         </NavLink>
       </div>

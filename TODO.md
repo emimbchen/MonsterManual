@@ -1,21 +1,18 @@
-- [x] Header
-  - [x] Mobile
-- [x] Footer
-  - [x] add image credits
-  - [x] force to bottom of page
-- [x] Routing
-- [ ] Listing Page
-  - [x] display
-  - [x] style
-- [ ] Individual Page
-  - [x] display
-  - [ ] style
-  - [ ] test
-- [ ] Polish Unit Tests
-- [ ] Polish Readme
+- [ ] Readme
   - [ ] https://github.com/othneildrew/Best-README-Template/blob/main/README.md?plain=1
-- [ ] 404 / error page
+- [ ] Unit Tests
+
+Final Check
+
 - [ ] Lighthouse tests
   - [ ] 100% accessibility
   - [ ] 100% SEO
   - [ ] 100% best practice
+- [ ] Fix any errors
+  - [ ] console
+  - [ ] terminal
+
+Stretch
+
+- [ ] ReactMarkdown
+- [ ] Helmet

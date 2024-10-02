@@ -1,13 +1,14 @@
-import { useRouteError } from "react-router-dom";
-
+import Wizard from "../assets/lostWizard.png";
+import PageLayout from "../components/PageLayout/PageLayout";
 function ErrorPage() {
-  const error = useRouteError();
-
   return (
-    <div>
-      <h1>Error</h1>
-      {error && <p>{error.message}</p>}
-    </div>
+    <PageLayout>
+      <div className="text-center">
+        <img src={Wizard} alt="Confused Wizard" className="max-w-52 mx-auto" />
+        <h1 className="block">Error</h1>
+        <p>Uh oh, we've run into a problem.</p>
+      </div>
+    </PageLayout>
   );
 }
 
