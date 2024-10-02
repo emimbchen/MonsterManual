@@ -1,9 +1,6 @@
 <a id="readme-top"></a>
 
 <div align="center">
-  <a href="https://github.com/emimbchen/SpellCards">
-    <img src="./public/logo192.png" alt="Logo" width="80" height="80">
-  </a>
   <h1 align="center">D&D Spell List</h1>
 </div>
 
@@ -22,9 +19,9 @@
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
+        <li><a href="#available-scripts">Available Scripts</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
@@ -32,8 +29,6 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](./public/screenShot.png)
 
 This project uses the [D&D 5e SRD API](https://5e-bits.github.io/docs/) to display D&D 5E spells.
 
@@ -112,7 +107,6 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 - [Font Awesome](https://fontawesome.com)
 - [The Noun Project](https://thenounproject.com)
-- [Img Shields](https://shields.io)
 - [Img Shields](https://shields.io)
 - [Best Readme Template](https://github.com/othneildrew/Best-README-Template/tree/main)
 
