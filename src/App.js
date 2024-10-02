@@ -3,7 +3,7 @@ import SpellList from "./pages/SpellList";
 import SpellDetail from "./pages/SpellDetail";
 import RootLayout from "./pages/Root";
 import ErrorPage from "./pages/Error";
-import { getAllSpells, getAllSchools, getSpellById } from "./api";
+import { getAllSpells, getSpellById } from "./api";
 
 const router = createBrowserRouter([
   {
@@ -12,6 +12,7 @@ const router = createBrowserRouter([
     element: <RootLayout />,
     children: [
       {
+        path: "/",
         index: true,
         element: <SpellList />,
         loader: getAllSpells,

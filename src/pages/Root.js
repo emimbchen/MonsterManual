@@ -1,17 +1,19 @@
-import { Outlet, useNavigation } from "react-router-dom";
+import { Outlet } from "react-router-dom";
+import Footer from "../components/Footer/Footer";
+import Header from "../components/Header/Header";
 
 function RootLayout() {
-  const navigation = useNavigation();
-
   return (
-    <>
-      <header role="banner"></header>
-      <main role="main">
-        {navigation.state === "loading" && <p>Loading...</p>}
+    <div className="flex flex-col min-h-screen">
+      <a href="#maincontent" className="sr-only focus:not-sr-only">
+        Skip to main content
+      </a>
+      <Header />
+      <main id="maincontent" role="main" className="container py-9 grow">
         <Outlet />
       </main>
-      <footer role="contentinfo"></footer>
-    </>
+      <Footer />
+    </div>
   );
 }
 

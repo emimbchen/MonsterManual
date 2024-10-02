@@ -16,9 +16,9 @@ function Spell() {
 
   return (
     <div>
+      <Link to="..">Back to Spells</Link>
       <h1>{name}</h1>
       <p>{desc}</p>
-      <Link to="..">Back to Spells</Link>
     </div>
   );
 }

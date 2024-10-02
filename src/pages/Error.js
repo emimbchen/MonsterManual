@@ -6,6 +6,7 @@ function ErrorPage() {
   return (
     <div>
       <h1>Error</h1>
+      {error && <p>{error.message}</p>}
     </div>
   );
 }

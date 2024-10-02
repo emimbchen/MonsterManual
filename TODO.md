@@ -1,21 +1,21 @@
-- [ ] Header
-- [ ] Footer
-  - [ ] add image credits <a href="https://www.flaticon.com/free-icons/dragon-head" title="dragon head icons">Dragon head icons created by iconfield - Flaticon</a>
+- [x] Header
+  - [x] Mobile
+- [x] Footer
+  - [x] add image credits
+  - [x] force to bottom of page
 - [x] Routing
 - [ ] Listing Page
   - [x] display
-  - [ ] style
-  - [ ] test
+  - [x] style
 - [ ] Individual Page
   - [x] display
   - [ ] style
   - [ ] test
 - [ ] Polish Unit Tests
-- [ ] Lighthouse tests
 - [ ] Polish Readme
   - [ ] https://github.com/othneildrew/Best-README-Template/blob/main/README.md?plain=1
 - [ ] 404 / error page
-- [ ] Loader
-  - [x] display
-  - [ ] style
-  - [ ] test
+- [ ] Lighthouse tests
+  - [ ] 100% accessibility
+  - [ ] 100% SEO
+  - [ ] 100% best practice
