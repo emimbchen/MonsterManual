@@ -1,8 +1,8 @@
 function StatBlock({ label, value, ...props }) {
   return (
     <div {...props}>
-      <div className="font-bold uppercase">{label}</div>
-      <span className="capitalize">{value}</span>
+      {label && <div className="font-bold uppercase">{label}</div>}
+      {value && <span className="capitalize">{value}</span>}
     </div>
   );
 }

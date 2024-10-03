@@ -20,6 +20,7 @@ function Footer({ ...props }) {
           <a
             href="https://thenounproject.com/browse/icons/term/card/"
             target="_blank"
+            rel="noreferrer"
             title="Card Icons"
             className="underline ms-2"
           >
@@ -31,6 +32,7 @@ function Footer({ ...props }) {
           <a
             href="https://thenounproject.com/browse/icons/term/january-of-hwatu/"
             target="_blank"
+            rel="noreferrer"
             title="January of hwatu Icons"
             className="underline ms-2"
           >

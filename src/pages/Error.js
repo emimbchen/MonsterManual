@@ -1,5 +1,6 @@
 import Wizard from "../assets/lostWizard.png";
 import PageLayout from "../components/PageLayout/PageLayout";
+
 function ErrorPage() {
   return (
     <PageLayout>

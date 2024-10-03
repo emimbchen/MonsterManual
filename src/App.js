@@ -1,9 +1,8 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import SpellList from "./pages/SpellList";
-import SpellDetail from "./pages/SpellDetail";
+import SpellList, { getAllSpells } from "./pages/SpellList";
+import SpellDetail, { getSpellById } from "./pages/SpellDetail";
 import RootLayout from "./pages/Root";
 import ErrorPage from "./pages/Error";
-import { getAllSpells, getSpellById } from "./api";
 
 const router = createBrowserRouter([
   {

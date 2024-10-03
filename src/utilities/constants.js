@@ -19,3 +19,5 @@ export const STAT_ORDER = [
   "attack_type",
   "material",
 ];
+
+export const API_BASE_URL = "https://www.dnd5eapi.co";

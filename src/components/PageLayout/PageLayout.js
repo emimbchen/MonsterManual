@@ -1,5 +1,6 @@
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
+
 function PageLayout({ children }) {
   return (
     <div className="flex flex-col min-h-screen">

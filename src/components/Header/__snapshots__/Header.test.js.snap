@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Component renders correctly 1`] = `
+<DocumentFragment>
+  <header
+    class="shadow"
+    role="banner"
+  >
+    <div
+      class="container py-4 flex items-center justify-center"
+    >
+      <a
+        aria-current="page"
+        aria-label="Navigate home"
+        class="active"
+        href="/"
+      >
+        <svg
+          alt="Spell Card Logo"
+          class="h-12"
+        >
+          cards.svg
+        </svg>
+      </a>
+    </div>
+  </header>
+</DocumentFragment>
+`;

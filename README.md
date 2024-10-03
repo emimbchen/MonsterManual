@@ -36,6 +36,7 @@ This project uses the [D&D 5e SRD API](https://5e-bits.github.io/docs/) to displ
 
 - [![React][React.js]][React-url]
 - [![TailWind][Tailwindcss]][Tailwind-url]
+- [![Axe][Axe-Core]][axe-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -118,3 +119,5 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 [React-url]: https://reactjs.org/
 [Tailwindcss]: https://img.shields.io/badge/tailwindcss-0F172A?&logo=tailwindcss
 [Tailwind-url]: https://tailwindcss.com/
+[Axe-Core]: https://img.shields.io/badge/axe-blue
+[Axe-url]: https://github.com/dequelabs/axe-core

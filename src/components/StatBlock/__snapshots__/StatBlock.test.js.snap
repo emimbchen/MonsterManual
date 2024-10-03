@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StatBlock Component renders correctly 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="font-bold uppercase"
+    >
+      This is a label
+    </div>
+    <span
+      class="capitalize"
+    >
+      This is the data
+    </span>
+  </div>
+</DocumentFragment>
+`;
